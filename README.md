@@ -8,7 +8,7 @@ npm install
 ```
 
 ```
-node index.js [srcFileName] [outputFileName] 
+node index.js [srcSrtFileName] [outputJsonFileName]
 ```
 
 

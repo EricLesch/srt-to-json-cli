@@ -13,7 +13,7 @@ var outputFileName = process.argv[3];
 
 // perform all io reads simultaneously at startup so the rest of the execution can be as
 // synchronous as possible and we can avoid callback hell as much as possible
-when.join(
+when(
     fileLoader.loadFile(inputFileName)
 ).then(getSrt)
 
