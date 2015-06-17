@@ -1,0 +1,15 @@
+{
+  "name": "srt-to-json-cli",
+  "version": "1.0.0",
+  "description": "Transform srt to json via the command line",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Eric Lesch",
+  "license": "MIT",
+  "dependencies": {
+    "subtitles-parser": "0.0.2",
+    "when": "^3.7.3"
+  }
+}
